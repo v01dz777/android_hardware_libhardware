@@ -67,8 +67,9 @@ typedef enum {
     POWER_HINT_LAUNCH = 0x00000008,
     POWER_HINT_DISABLE_TOUCH = 0x00000009,
 
+    // Custom Lineage hints
     POWER_HINT_CPU_BOOST    = 0x00000110,
-    POWER_HINT_SET_PROFILE  = 0x00000111,
+    POWER_HINT_SET_PROFILE  = 0x00000111
 } power_hint_t;
 
 typedef enum {
